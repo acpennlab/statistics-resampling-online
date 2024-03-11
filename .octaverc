@@ -2,7 +2,7 @@
 setenv ('XDG_RUNTIME_DIR', '/tmp/runtime-jovyan');
 setenv ('GNUTERM', 'qt');
 
-# Add to octave path (required for using Octave engine in RStudio)
+# Add to octave path (required for using octave-cli engine in RStudio)
 addpath ('/srv/conda/envs/notebook/share/octave/8.3.0/m/startup/', '-end')
 addpath ('/srv/conda/envs/notebook/share/octave/8.3.0/m/testfun/', '-end')
 addpath ('/srv/conda/envs/notebook/share/octave/8.3.0/m/set/', '-end')
