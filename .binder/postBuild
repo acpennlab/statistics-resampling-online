@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# Set environmental variables
-set XDG_RUNTIME_DIR=/tmp/runtime-jovyan
-set GNUTERM=qt
-
 # Fail fast
 set -o errexit
 set -o nounset
