@@ -1,5 +1,5 @@
 # Set environmental variables
-setenv ('XDG_RUNTIME_DIR','/tmp/runtime-jovyan');
+#setenv ('XDG_RUNTIME_DIR','/tmp/runtime-jovyan');
 setenv ('GNUTERM','qt');
 
 # Warnings to turn off
