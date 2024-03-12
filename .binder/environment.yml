@@ -23,6 +23,8 @@ dependencies:
   - r-essentials == 4.1
   - r-markdown == 1.7
   - r-bootstrap == 2019.6
+  - r-png == 0.1_7
+  - r-reticulate == 1.35.0
   # Jupyter Lab extensions
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
