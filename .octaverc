@@ -2,15 +2,6 @@
 setenv ('XDG_RUNTIME_DIR', '/tmp/runtime-jovyan');
 setenv ('GNUTERM', 'qt');
 
-# Add to octave path (required for using octave-cli engine in RStudio)
-addpath ('/srv/conda/envs/notebook/share/octave/8.3.0/m/startup/', '-end')
-addpath ('/srv/conda/envs/notebook/share/octave/8.3.0/m/testfun/', '-end')
-addpath ('/srv/conda/envs/notebook/share/octave/8.3.0/m/set/', '-end')
-addpath ('/srv/conda/envs/notebook/lib/octave/8.3.0/oct/x86_64-conda-linux-gnu', '-end')
-addpath (genpath ('/srv/conda/envs/notebook/share/octave/site/m'), '-end')
-addpath (genpath ('/srv/conda/envs/notebook/share/octave/8.3.0/m'), '-end')
-addpath (genpath ('/srv/conda/envs/notebook/share/octave/8.3.0/data'), '-end')
-
 # Warnings to turn off
 warning ('off', 'Octave:shadowed-function');
 warning ('off', 'Octave:legacy-function');
