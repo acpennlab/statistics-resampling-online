@@ -5,8 +5,8 @@ set -o errexit
 set -o nounset
 
 # Uninstall jupyter-offlinenotebook extension since the 'Download' button function is buggy
-# Download from the 'File' menu instead
-micromamba remove -yn notebook jupyter-offlinenotebook
+# Download/upload to/from browser storage then download from the 'File' menu instead
+# micromamba remove -yn notebook jupyter-offlinenotebook
 
 # Installation of Octave packages is dependent on current user.
 # This works because postBuild user is the same as user running Binder.
@@ -17,3 +17,6 @@ micromamba run -n notebook octave-cli --eval 'pkg install "https://downloads.sou
 micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/apjanke/octave-tablicious/releases/download/v0.4.2/tablicious-0.4.2.tar.gz"'
 micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/gnu-octave/statistics/archive/refs/tags/release-1.6.5.tar.gz"'
 micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/gnu-octave/statistics-resampling/archive/refs/tags/5.5.7.tar.gz"'
+
+# Installation of R packages that are not avalable through conda-forge.
+micromamba run -n notebook Rscript -e 'install.packages(c("lmboot"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
