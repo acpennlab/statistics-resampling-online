@@ -30,12 +30,13 @@ dependencies:
   - r-gridsvg == 1.7_5
   - r-hmisc == 5.1_0
   - r-ggsignif == 0.6.4
-  - r-emmeans == 1.8.6
   - r-car == 3.1_2
   - r-lmperm == 2.1.0
   - r-lme4 == 1.1_33
   - r-lmertest == 3.1_3
   - r-parameters == 0.21.1
+  - r-emmeans == 1.8.6
+  - r-multcomp == 1.4_23
   # Jupyter Lab extensions
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
