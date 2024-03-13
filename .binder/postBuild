@@ -19,4 +19,4 @@ micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/gn
 micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/gnu-octave/statistics-resampling/archive/refs/tags/5.5.7.tar.gz"'
 
 # Installation of R packages that are not avalable through conda-forge.
-micromamba run -n notebook micromamba run -n notebook R -e 'install.packages(c("lmboot", "coin","lmeresampler"), repos = "http://cran.uk.r-project.org", dependencies=TRUE)'
+micromamba run -n notebook micromamba run -n notebook R -e 'install.packages(c("lmboot"), repos = "http://cran.uk.r-project.org", dependencies=TRUE)'
