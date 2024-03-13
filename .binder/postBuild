@@ -5,7 +5,7 @@ set -o errexit
 set -o nounset
 
 # Uninstall jupyter-offlinenotebook extension since the 'Download' button function is buggy
-# Download from the 'File' menu instead
+# Download/upload to/from browser storage then download from the 'File' menu instead
 # micromamba remove -yn notebook jupyter-offlinenotebook
 
 # Installation of Octave packages is dependent on current user.
