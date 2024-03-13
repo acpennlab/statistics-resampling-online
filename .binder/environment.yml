@@ -36,7 +36,7 @@ dependencies:
   - r-lmertest == 3.1_3
   - r-parameters == 0.21.1
   - r-emmeans == 1.8.6
-  - r-multcomp
+  - r-multcomp == 1.4_23
   # Jupyter Lab extensions
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
