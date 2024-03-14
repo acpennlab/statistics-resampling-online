@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+      - jammy-docker
 
 jobs:
   Create-MyBinderOrg-Cache:
