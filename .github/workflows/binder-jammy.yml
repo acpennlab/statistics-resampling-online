@@ -15,3 +15,4 @@ jobs:
         MYBINDERORG_TAG: ${{ github.event.ref }} # This builds the container on mybinder.org with the branch that was pushed on.
         FORCE_REPO2DOCKER_VERSION: jupyter-repo2docker==2023.6.0
         REPO2DOCKER_EXTRA_ARGS: --Repo2Docker.base_image=docker.io/library/buildpack-deps:jammy
+        PUBLIC_REGISTRY_CHECK: true
