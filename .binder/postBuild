@@ -22,7 +22,6 @@ micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/gn
 micromamba run -n notebook octave-cli --eval 'pkg install "https://downloads.sourceforge.net/project/octave/Octave%20Forge%20Packages/Individual%20Package%20Releases/signal-1.4.5.tar.gz"'
 micromamba run -n notebook octave-cli --eval 'pkg install "https://downloads.sourceforge.net/project/octave/Octave%20Forge%20Packages/Individual%20Package%20Releases/optim-1.6.2.tar.gz"'
 micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/shsajjadi/OctaveCoder/releases/download/coder-1.8.4/coder-1.8.4.tar.gz"'
-micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/shsajjadi/OctaveCoder/releases/download/coder-1.8.4/coder-1.8.4.tar.gz"'
 micromamba run -n notebook octave-cli --eval 'pkg install "https://downloads.sourceforge.net/project/octave/Octave%20Forge%20Packages/Individual%20Package%20Releases/image-2.14.0.tar.gz"'
 micromamba run -n notebook octave-cli --eval 'pkg install "https://downloads.sourceforge.net/project/octave/Octave%20Forge%20Packages/Individual%20Package%20Releases/symbolic-3.1.1.tar.gz"'
 
