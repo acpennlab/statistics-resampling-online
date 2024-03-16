@@ -31,4 +31,4 @@ micromamba run -n notebook octave-cli --eval 'pkg install "https://downloads.sou
 micromamba run -n notebook Rscript -e 'install.packages(c("lmboot"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
 
 # Import the workspace into JupyterLab
-jupyter lab workspaces import .binder/workspace.jupyterlab-workspace
+jupyter lab workspaces import .binder/workspace.json
