@@ -4,3 +4,4 @@ gnuplot
 ghostscript
 tzdata
 python3-sympy
+units
