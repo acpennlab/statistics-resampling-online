@@ -6,4 +6,3 @@ libarpack2
 tzdata
 python3-sympy
 units
-libpcre2-8-0
