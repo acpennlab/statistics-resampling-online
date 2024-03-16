@@ -2,4 +2,7 @@ libgl1-mesa-dev
 xvfb
 gnuplot
 ghostscript
+libarpack2 
 tzdata
+python3-sympy
+units

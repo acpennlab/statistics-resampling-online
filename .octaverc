@@ -6,9 +6,9 @@ setenv ('GNUTERM', 'qt');
 warning ('off', 'Octave:shadowed-function');
 warning ('off', 'Octave:legacy-function');
 
-# Packages to pre-load
+# Pre-load packages
 try
-  pkg load io tablicious statistics statistics-resampling
+  pkg load io tablicious statistics statistics-resampling struct control signal optim coder symbolic miscellaneous splines strings
 catch
   # We expect to catch an error when running postBuild since
   # packages cannot be loaded before they are installed

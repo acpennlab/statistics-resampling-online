@@ -14,6 +14,10 @@ dependencies:
   # Python
   - python == 3.10.12
   - ipyparallel == 8.6.1
+  - json5 == 0.9.22
+  - jsonschema == 4.21.1
+  - jsonschema-specifications == 2023.12.1
+  - jsonschema-with-format-nongpl == 4.21.1
   - ipysheet == 0.7.0
   - numpy == 1.23.1
   - scipy == 1.12.0
@@ -38,6 +42,7 @@ dependencies:
   - r-emmeans == 1.8.6
   - r-multcomp == 1.4_23
   # Jupyter Lab extensions
+  - jupyter-offlinenotebook == 0.3.1
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
   - jupyterlab-latex == 3.1.0
