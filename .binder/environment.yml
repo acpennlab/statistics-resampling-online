@@ -42,7 +42,7 @@ dependencies:
   - r-emmeans == 1.8.6
   - r-multcomp == 1.4_23
   # Jupyter Lab extensions
-  - jupyter-archive
+  - jupyter-archive == 3.4.0
   - jupyter-offlinenotebook == 0.3.1
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
