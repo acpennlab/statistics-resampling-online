@@ -6,7 +6,3 @@ libarpack2
 tzdata
 python3-sympy
 units
-texinfo
-epstool
-pstoedit
-octave-dev
