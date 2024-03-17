@@ -8,7 +8,7 @@ warning ('off', 'Octave:legacy-function');
 
 # Packages to pre-load
 try
-  pkg load io tablicious statistics statistics-resampling
+  pkg load io tablicious statistics statistics-resampling struct control signal optim coder symbolic miscellaneous splines strings data-smoothing ga optiminterp dataframe
 catch
   # We expect to catch an error when running postBuild since
   # packages cannot be loaded before they are installed
