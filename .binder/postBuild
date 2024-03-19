@@ -33,3 +33,4 @@ micromamba run -n notebook octave-cli --eval 'pkg install "https://downloads.sou
 
 # Installation of R packages that are not avalable through conda-forge.
 micromamba run -n notebook Rscript -e 'install.packages(c("lmboot"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
+micromamba run -n notebook Rscript -e 'install.packages(c("devEMF"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
