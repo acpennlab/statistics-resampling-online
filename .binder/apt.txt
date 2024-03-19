@@ -1,5 +1,4 @@
 libgl1-mesa-dev
-libgnutls28-dev
 xvfb
 gnuplot
 ghostscript
