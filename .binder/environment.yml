@@ -23,6 +23,12 @@ dependencies:
   - scipy == 1.12.0
   - plotnine == 0.13.0
   - plotly == 5.19.0
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - statsmodels
+  - tensorflow
+  - keras
   # R (including package manager)
   # R 4.1.3 is the latest version to use R_GE_version == 14, which is compatible with RStudio server 2022.12.0+353 on binder
   # Packages not available via conda-forge are installed using install.R
@@ -42,7 +48,54 @@ dependencies:
   - r-parameters == 0.21.1
   - r-emmeans == 1.8.6
   - r-multcomp == 1.4_23
-  - r-plotly == 4.10.2 
+  - r-plotly == 4.10.2
+  - r-afex 
+  - r-rcartocolor
+  - r-broom.mixed
+  - r-effectsize 
+  - r-kableextra
+  - r-lavaan
+  - r-insight
+  - r-learnr
+  - r-learnbayes
+  - r-qqplotr
+  - r-performance
+  - r-mlr3
+  - r-tidymodels
+  - r-gparotation
+  - r-psych
+  - r-effsize
+  - r-gt
+  - r-ggraph
+  - r-ggally
+  - r-ggfortify
+  - r-ggrepel
+  - r-ggdist
+  - r-ggridges
+  - r-ggbeeswarm
+  - r-gghalves
+  - r-ggpubr
+  - r-cowplot
+  - r-lmvar
+  - r-multcompview
+  - r-compute.es
+  - r-pastecs
+  - r-here
+  - r-robust
+  - r-robustbase
+  - r-wrs2
+  - r-sjstats
+  - r-effects
+  - r-aiccmodavg
+  - r-correlation
+  - r-interactions
+  - r-modelbased
+  - r-brms
+  - r-bayesfactor
+  - r-tidybayes
+  - r-logspline
+  - r-tensorflow
+  - r-keras
   # Jupyter Lab extensions
   - jupyter-archive == 3.4.0
   - jupyter-offlinenotebook == 0.3.1
