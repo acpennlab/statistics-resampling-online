@@ -98,7 +98,7 @@ dependencies:
   - r-tensorflow == 2.11.0
   - r-keras == 2.11.1
   # Jupyter Lab extensions
-  - jupyter-archive == 3.4.0
+  - jupyter-archive == 3.3.4
   - jupyter-offlinenotebook == 0.3.1
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
