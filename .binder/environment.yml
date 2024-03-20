@@ -23,12 +23,12 @@ dependencies:
   - scipy == 1.12.0
   - plotnine == 0.13.0
   - plotly == 5.19.0
-  - scikit-learn
-  - seaborn
-  - matplotlib
+  - scikit-learn ==1.4.1
+  - seaborn == 0.13.2
+  - matplotlib == 3.8.3
   - statsmodels
-  - tensorflow
-  - keras
+  - tensorflow == 2.11.1
+  - keras == 2.11.0
   # R (including package manager)
   # R 4.1.3 is the latest version to use R_GE_version == 14, which is compatible with RStudio server 2022.12.0+353 on binder
   # Packages not available via conda-forge are installed using install.R
@@ -49,53 +49,53 @@ dependencies:
   - r-emmeans == 1.8.6
   - r-multcomp == 1.4_23
   - r-plotly == 4.10.2
-  - r-afex 
-  - r-rcartocolor
-  - r-broom.mixed
-  - r-effectsize 
-  - r-kableextra
-  - r-lavaan
-  - r-insight
-  - r-learnr
-  - r-learnbayes
-  - r-qqplotr
-  - r-performance
-  - r-mlr3
-  - r-tidymodels
-  - r-gparotation
-  - r-psych
-  - r-effsize
-  - r-gt
-  - r-ggraph
-  - r-ggally
-  - r-ggfortify
-  - r-ggrepel
-  - r-ggdist
-  - r-ggridges
-  - r-ggbeeswarm
-  - r-gghalves
-  - r-ggpubr
-  - r-cowplot
-  - r-lmvar
-  - r-multcompview
-  - r-compute.es
-  - r-pastecs
-  - r-here
-  - r-robust
-  - r-robustbase
-  - r-wrs2
-  - r-sjstats
-  - r-effects
-  - r-aiccmodavg
-  - r-correlation
-  - r-interactions
-  - r-modelbased
-  - r-brms
-  - r-bayesfactor
-  - r-tidybayes
-  - r-logspline
-  - r-tensorflow
-  - r-keras
+  - r-afex == 1.3_0
+  - r-rcartocolor == 2.1.1
+  - r-broom.mixed == 0.2.9.4
+  - r-effectsize == 0.8.3
+  - r-effects == 4.2_2
+  - r-effsize == 0.8.1
+  - r-kableextra == 1.3.4
+  - r-lavaan == 0.6_15
+  - r-insight 
+  - r-learnr == 0.11.4
+  - r-learnbayes == 2.15.1
+  - r-qqplotr == 0.0.6
+  - r-performance == 0.10.4
+  - r-mlr3 == 0.16.0
+  - r-tidymodels == 1.1.0
+  - r-gparotation == 2023.3_1
+  - r-psych == 2.3.3
+  - r-gt == 0.9.0
+  - r-ggraph == 2.1.0
+  - r-ggally == 2.1.2
+  - r-ggfortify == 0.4.16
+  - r-ggrepel == 0.9.3
+  - r-ggdist == 3.3.0
+  - r-ggridges == 0.5.4
+  - r-ggbeeswarm == 0.7.2
+  - r-gghalves == 0.1.4
+  - r-ggpubr == 0.6.0
+  - r-cowplot == 1.1.1
+  - r-lmvar == 1.5.2
+  - r-multcompview == 0.1_9
+  - r-compute.es == 0.2_5
+  - r-pastecs == 1.3.21
+  - r-here == 1.0.1
+  - r-robust == 0.7_1
+  - r-robustbase == 0.95_1
+  - r-wrs2 == 1.1_4
+  - r-sjstats == 0.18.2
+  - r-aiccmodavg == 2.3_2
+  - r-correlation == 0.8.4
+  - r-interactions == 1.1.5
+  - r-modelbased == 0.8.6
+  - r-brms == 2.19.0
+  - r-bayesfactor == 1.10.0
+  - r-tidybayes == 3.0.4
+  - r-logspline == 2.1.19
+  - r-tensorflow == 2.11.0
+  - r-keras == 2.11.1
   # Jupyter Lab extensions
   - jupyter-archive == 3.4.0
   - jupyter-offlinenotebook == 0.3.1
