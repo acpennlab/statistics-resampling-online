@@ -43,5 +43,6 @@ micromamba run -n notebook Rscript -e 'install.packages(c("lm.beta"), repos="htt
 micromamba run -n notebook Rscript -e 'install.packages(c("faux"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
 micromamba run -n notebook Rscript -e 'install.packages(c("plotthemes"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
 micromamba run -n notebook Rscript -e 'install.packages(c("clubSandwich"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
+micromamba run -n notebook Rscript -e 'install.packages(c("insight"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
 micromamba run -n notebook Rscript -e 'remotes::install_github("profandyfield/adventr")'
 micromamba run -n notebook Rscript -e 'remotes::install_github("acpennlab/discovr")'
