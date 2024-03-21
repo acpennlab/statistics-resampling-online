@@ -1,4 +1,4 @@
-name: statistics-resampling-online
+name: notebook
 channels:
   - conda-forge
 dependencies:
