@@ -22,4 +22,4 @@ ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 Mux = "a975b10e-0019-58db-a62f-e48ff68538c9"
 
 [compat]
-julia = "1.10.2"
+julia = "1"
