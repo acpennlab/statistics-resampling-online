@@ -104,6 +104,6 @@ dependencies:
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
   - jupyterlab-latex == 3.1.0
-  #- webio-jupyter-extension = 0.1.0
+  - webio-jupyter-extension = 0.1.0
   #- jupyterlab-filesystem-access == 0.5.3 
   #- jupyterlab-fileopen == 0.2.2
