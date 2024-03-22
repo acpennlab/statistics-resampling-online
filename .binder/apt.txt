@@ -4,5 +4,4 @@ gnuplot
 ghostscript
 libarpack2 
 tzdata
-python3-sympy
 units
