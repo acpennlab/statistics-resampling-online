@@ -27,6 +27,7 @@ dependencies:
   - matplotlib == 3.8.3
   - statsmodels == 0.14.1
   - resample == 1.7.1
+  - scikit-learn == 1.4.1.post1
   # R (including package manager)
   # R 4.1.3 is the latest version to use R_GE_version == 14, which is compatible with RStudio server 2022.12.0+353 on binder
   # Packages not available via conda-forge are installed using install.R
@@ -99,6 +100,6 @@ dependencies:
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
   - jupyterlab-latex == 3.1.0
-  #- webio-jupyter-extension = 0.1.0
+  - webio-jupyter-extension = 0.1.0
   #- jupyterlab-filesystem-access == 0.5.3 
   #- jupyterlab-fileopen == 0.2.2
