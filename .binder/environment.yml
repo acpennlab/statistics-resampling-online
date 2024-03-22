@@ -94,8 +94,6 @@ dependencies:
   - r-bayesfactor == 0.9.12_4.4
   - r-tidybayes == 3.0.4
   - r-logspline == 2.1.19
-  - r-tensorflow == 2.11.0
-  - r-keras == 2.11.1
   # Jupyter Lab extensions
   - jupyter-archive == 3.3.4
   - jupyter-offlinenotebook == 0.3.1
