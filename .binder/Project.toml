@@ -1,6 +1,5 @@
 [deps]
 IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
-Tidier = "f0413319-3358-4bb0-8e7c-0c83523a93bd"
 StatsKit = "2cb19f9e-ec4d-5c53-8573-a4542a68d3f0"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
@@ -22,5 +21,4 @@ ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 Mux = "a975b10e-0019-58db-a62f-e48ff68538c9"
 
 [compat]
-julia = "1"
-Tidier = "1.2.1"
+julia = "1.10.2"
