@@ -61,7 +61,6 @@ dependencies:
   - r-learnbayes == 2.15.1
   - r-qqplotr == 0.0.6
   - r-performance == 0.10.4
-  - r-reticulate == 1.30
   - r-mlr3 == 0.16.0
   - r-tidymodels == 1.1.0
   - r-gparotation == 2023.3_1
