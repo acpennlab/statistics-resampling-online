@@ -8,7 +8,7 @@ warning ('off', 'Octave:legacy-function');
 
 # Pre-load packages
 try
-  pkg load io tablicious statistics statistics-resampling struct control signal optim coder symbolic miscellaneous splines strings data-smoothing ga optiminterp dataframe image
+  pkg load io tablicious statistics statistics-resampling struct control signal optim coder symbolic miscellaneous splines strings data-smoothing ga optiminterp dataframe matgeom geometry image
   warning ('on', 'Octave:shadowed-function');
 catch
   # We expect to catch an error when running postBuild since
