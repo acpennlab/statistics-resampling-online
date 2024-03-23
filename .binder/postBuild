@@ -33,6 +33,6 @@ micromamba run -n notebook octave-cli --eval 'pkg install "https://downloads.sou
 micromamba run -n notebook octave-cli --eval 'pkg install ~/.binder/extras/image-2.14.0-x86_64-conda-linux-gnu-api-v58.tar.gz'
 
 # Installation of R packages that are not avalable through conda-forge.
-micromamba run -n notebook Rscript -e 'install.packages(c("lmboot","devEMF","psychmeta","esc","pCalibrate","HLMdiag","lm.beta","faux","plotthemes","clubSandwich"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
+micromamba run -n notebook Rscript -e 'install.packages(c("lmboot","devEMF","psychmeta","esc","pCalibrate","HLMdiag","lm.beta","faux","plotthemes","clubSandwich","resample"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
 micromamba run -n notebook Rscript -e 'remotes::install_github(c("profandyfield/adventr","acpennlab/discovr"))'
 micromamba run -n notebook Rscript -e 'remove.packages("reticulate")'
