@@ -2,6 +2,7 @@
 IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
 StatsKit = "2cb19f9e-ec4d-5c53-8573-a4542a68d3f0"
 StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+SignalAnalysis = "df1fea92-c066-49dd-8b36-eace3378ea47"
 PlotSVG = "38244590-38c0-4f85-8105-e5c469effcd5"
 HTTP = "cd3eb016-35fb-5094-929b-558a96fad6f3"
 XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
