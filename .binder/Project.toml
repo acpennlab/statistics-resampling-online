@@ -20,6 +20,7 @@ Weave = "44d3d7a6-8a23-5bf8-98c5-b353f8df5ec9"
 Interact = "c601a237-2ae4-5e1e-952c-7a85b0c7eef1"
 ZipFile = "a5390f91-8eb1-5f08-bee0-b1d1ffed6cea"
 Mux = "a975b10e-0019-58db-a62f-e48ff68538c9"
+SignalAnalysis = "df1fea92-c066-49dd-8b36-eace3378ea47"
 
 [compat]
 julia = "1.10.2"
