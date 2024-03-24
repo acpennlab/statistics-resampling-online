@@ -5,6 +5,3 @@ ghostscript
 libarpack2 
 tzdata
 units
-graphicsmagick
-graphicsmagick-imagemagick-compat
-graphicsmagick-libmagick-dev-compat
