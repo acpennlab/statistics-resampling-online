@@ -103,6 +103,7 @@ dependencies:
   - jupyterlab-latex == 3.1.0
   - jupyterlab-mathjax3 == 4.3.0
   - elyra-pipeline-editor-extension
+  - jupyter-collaboration
   #- webio-jupyter-extension = 0.1.0
   #- jupyterlab-filesystem-access == 0.5.3 
   #- jupyterlab-fileopen == 0.2.2
