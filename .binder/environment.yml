@@ -1,8 +1,10 @@
 channels:
   - conda-forge
 dependencies:
+  # General apps
   - nbgitpuller == 1.2.0
   - nano == 7.2
+  - tzdata == 2023c
   - mathjax == 3.2.2
   # GNU Octave for JupyterLab
   # Octave 8.3 is the latest version to work with the same dependencies as R 4.1.3
