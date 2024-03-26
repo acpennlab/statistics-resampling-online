@@ -5,3 +5,5 @@ ghostscript
 libarpack2 
 tzdata
 units
+texlive-full
+dvisvgm
