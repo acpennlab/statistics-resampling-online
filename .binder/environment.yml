@@ -1,8 +1,10 @@
 channels:
   - conda-forge
 dependencies:
+  # General apps
   - nbgitpuller == 1.2.0
   - nano == 7.2
+  - tzdata == 2023c
   - mathjax == 3.2.2
   # GNU Octave for JupyterLab
   # Octave 8.3 is the latest version to work with the same dependencies as R 4.1.3
@@ -97,11 +99,14 @@ dependencies:
   - r-logspline == 2.1.19
   # Jupyter Lab extensions
   - jupyter-archive == 3.3.4
+  - jupyterlab_downloadfolder == 0.1.1
   - jupyter-offlinenotebook == 0.3.1
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
   - jupyterlab-latex == 3.1.0
   - jupyterlab-mathjax3 == 4.3.0
+  - elyra-pipeline-editor-extension
+  - jupyter-collaboration
   #- webio-jupyter-extension = 0.1.0
   #- jupyterlab-filesystem-access == 0.5.3 
   #- jupyterlab-fileopen == 0.2.2
