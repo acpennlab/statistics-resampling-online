@@ -103,6 +103,7 @@ dependencies:
   - jupyter-collaboration == 1.0.1
   - jupyterlab-link-share == 0.3.0
   - jupyterlab-spellchecker == 0.7.3 
+  - elyra-pipeline-editor-extension
   # Other apps
   - nbgitpuller == 1.2.0
   - nano == 7.2
