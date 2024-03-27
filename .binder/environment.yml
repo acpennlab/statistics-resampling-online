@@ -101,6 +101,7 @@ dependencies:
   - jupyterlab-mathjax3 == 4.3.0
   - jupyterlab-git == 0.44.0
   - jupyter-collaboration == 1.0.1
+  - jupyterlab-link-share
   - jupyterlab-spellchecker
   # Other apps
   - nbgitpuller == 1.2.0
