@@ -35,3 +35,6 @@ micromamba run -n notebook octave-cli --eval 'pkg install "https://github.com/re
 # Installation of R packages that are not avalable through conda-forge.
 micromamba run -n notebook Rscript -e 'install.packages(c("lmboot","devEMF","psychmeta","esc","pCalibrate","HLMdiag","lm.beta","faux","plotthemes","clubSandwich","resample"), repos="https://cloud.r-project.org", lib="/srv/conda/envs/notebook/lib/R/library")'
 micromamba run -n notebook Rscript -e 'remotes::install_github(c("profandyfield/adventr","acpennlab/discovr"))'
+
+# generate non minified assets so it's easier to step into the code on Binder
+jupyter lab build --minimize=False
