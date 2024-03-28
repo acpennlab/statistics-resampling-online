@@ -104,7 +104,7 @@ dependencies:
   - jupyterlab-link-share == 0.3.0
   - jupyterlab-spellchecker == 0.7.3 
   - pip:
-    - mrx_link
+    - elyra-python-editor-extension
   # Other apps
   - nbgitpuller == 1.2.0
   - nano == 7.2
