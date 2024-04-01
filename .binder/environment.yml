@@ -10,7 +10,7 @@ dependencies:
   - make == 4.3
   # Python
   - python == 3.10.12
-  - ipyparallel == 8.6.1
+  - ipyparallel == 8.5.1
   - json5 == 0.9.22
   - jsonschema == 4.21.1
   - jsonschema-specifications == 2023.12.1
@@ -100,9 +100,8 @@ dependencies:
   - jupyterlab-latex == 3.1.0
   - jupyterlab-mathjax3 == 4.3.0
   - jupyterlab-git == 0.44.0
-  - jupyter-collaboration == 1.0.1
   - jupyterlab-link-share == 0.3.0
-  - jupyterlab-spellchecker == 0.7.3 
+  - jupyterlab-spellchecker == 0.7.3
   # Other apps
   - nbgitpuller == 1.2.0
   - nano == 7.2
