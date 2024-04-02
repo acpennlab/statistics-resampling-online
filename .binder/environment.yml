@@ -97,7 +97,6 @@ dependencies:
   - jupyter-offlinenotebook == 0.3.1
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
-  - jupyterlab-latex == 3.1.0
   - jupyterlab-mathjax3 == 4.3.0
   - jupyterlab-git == 0.44.0
   - jupyter-collaboration == 1.0.1
