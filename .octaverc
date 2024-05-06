@@ -5,6 +5,7 @@ setenv ('GNUTERM', 'qt');
 # Warnings to turn off
 warning ('off', 'Octave:shadowed-function');
 warning ('off', 'Octave:legacy-function');
+warning ('off', 'Octave:multi_byte_char_length')
 
 # Pre-load packages
 try
